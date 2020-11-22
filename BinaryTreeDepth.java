@@ -32,6 +32,7 @@ public class BinaryTreeDepth {
     public static boolean isBalanced(BinaryTreeNode treeRoot) {
 
         // determine if the tree is superbalanced
+        // A tree is "superbalanced" if the difference between the depths of any two leaf nodes is no greater than one.
         // We wanna do a BFS and find the shallowest node and get it's depth and then keep going
         
         // to do a bfs let's use a que and then go over each node and put it's children in the que
