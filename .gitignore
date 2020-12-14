@@ -1,3 +1,4 @@
 .idea
 personal.iml
 out/*
+target/*
